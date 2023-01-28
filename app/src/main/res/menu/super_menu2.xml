@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item
+        android:id="@+id/multi"
+        android:icon="@drawable/ic_view_agenda_black_24dp"
+        android:title="Go to dual webpage activity" />
+    <item
+        android:id="@+id/multi2"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Go to multi webpage activity" />
+        <item
+            android:id="@+id/browse"
+            android:icon="@android:drawable/ic_secure"
+            android:title="Browser more privately" />
+    </group>
+
+</menu>

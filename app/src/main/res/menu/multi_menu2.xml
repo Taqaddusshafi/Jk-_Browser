@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/one"
+        android:title="Go back for first page" />
+    <item
+        android:id="@+id/two"
+        android:title="Go back for second page" />
+    <item
+        android:id="@+id/three"
+        android:title="Go back for 3rd page" />
+    <item
+        android:id="@+id/four"
+        android:title="Go back for 4th page" />
+    <item
+        android:id="@+id/fone"
+        android:title="Go forward for first page" />
+    <item
+        android:id="@+id/ftwo"
+        android:title="Go forward for second page" />
+    <item
+        android:id="@+id/fthree"
+        android:title="Go forward for third page" />
+    <item
+        android:id="@+id/ffour"
+        android:title="Go forward for fourth page" />
+    <item
+        android:id="@+id/rone"
+        android:title="Refresh all webpages" />
+    <item
+        android:id="@+id/hone"
+        android:title="Go home for all webpages" />
+    <item
+        android:icon="@drawable/ic_home_1black_24dp"
+        android:title="Main Homw"
+        app:showAsAction="always"
+        android:id="@+id/home_main1"/>
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/first"
+        android:title="Go back for first page" />
+
+    <item android:title="go forward for first page"
+        android:id="@+id/for1"/>
+    <item android:title="Go back for second page"
+        android:id="@+id/sec"/>
+    <item android:title="go forward for second page"
+        android:id="@+id/for2"/>
+    <item android:title="Refresh page1"
+        android:id="@+id/ref1"/>
+    <item android:title="Refresh page2"
+android:id="@+id/ref2" />
+    <item android:title="Go home for page1"
+        android:id="@+id/go1"/>
+    <item android:title="Go home for page 2"
+        android:id="@+id/go2"/>
+    <item
+        android:icon="@drawable/ic_home_1black_24dp"
+        android:title="Main Home Activity"
+        android:id="@+id/main_home"
+        app:showAsAction="always"/>
+</menu>
